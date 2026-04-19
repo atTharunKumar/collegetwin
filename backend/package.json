@@ -1,0 +1,27 @@
+{
+  "name": "collegetwin-backend",
+  "version": "1.0.0",
+  "description": "CollegeTwin Backend API Server",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^9.2.4",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.1",
+    "@types/cors": "^2.8.14",
+    "typescript": "^5.1.3",
+    "ts-node": "^10.9.1"
+  }
+}
